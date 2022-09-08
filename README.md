@@ -26,7 +26,7 @@ func main() {
     app.Listen(":8080")
 }
 ```
-> visit http://127.0.0.1:8080/redoc
+> Visit http://127.0.0.1:8080/redoc
 > 
  <img alt="Redoc logo" src="https://fab-jar.oss-cn-zhangjiakou.aliyuncs.com/img/redoc.png"  width="800px"/>
 
