@@ -154,7 +154,7 @@ const redocTpl = `
     </style>
   </head>
   <body>
-    <redoc spec-url='{{.url}}' theme='{{.theme}}'></redoc>
+    <redoc spec-url="{{.url}}" theme="{{.theme}}"></redoc>
     <script src="{{.js_cdn}}"> </script>
   </body>
 </html>
