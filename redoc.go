@@ -28,7 +28,7 @@ type XLogo struct {
 
 type Config struct {
 	Logo   XLogo
-	Theme  string
+	Theme  string // see https://github.com/Redocly/redoc#redoc-theme-object
 	JsCDN  string
 	CssCDN string
 }
@@ -154,7 +154,7 @@ const redocTpl = `
     </style>
   </head>
   <body>
-    <redoc spec-url='{{.url}}'></redoc>
+    <redoc spec-url='{{.url}}' theme='{{.theme}}'></redoc>
     <script src="{{.js_cdn}}"> </script>
   </body>
 </html>
