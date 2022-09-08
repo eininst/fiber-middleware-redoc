@@ -27,7 +27,7 @@ func main() {
 }
 ```
 
- <img alt="Redoc logo" src="https://fab-jar.oss-cn-zhangjiakou.aliyuncs.com/img/redoc.png" width="400px" />
+ <img alt="Redoc logo" src="https://fab-jar.oss-cn-zhangjiakou.aliyuncs.com/img/redoc.png"  />
 
 
 > See [examples](/examples)
